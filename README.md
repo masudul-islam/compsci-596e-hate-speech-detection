@@ -14,7 +14,7 @@ To set up the project, follow these steps to clone the repository and install th
 
 ```bash
    git clone https://github.com/masudul-islam/compsci-596e-hate-speech-detection.git
-   cd hatespeech-detection
+   cd compsci-596e-hate-speech-detection
    pip install -r requirements.txt
 ```
 
