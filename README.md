@@ -13,9 +13,9 @@ This project develops a machine learning model to detect hate speech in tweets. 
 To set up the project, follow these steps to clone the repository and install the necessary dependencies:
 
 ```bash
-   git clone https://github.com/masudul-islam/compsci-596e-hate-speech-detection.git
-   cd compsci-596e-hate-speech-detection
-   pip install -r requirements.txt
+git clone https://github.com/masudul-islam/compsci-596e-hate-speech-detection.git
+cd compsci-596e-hate-speech-detection
+pip install -r requirements.txt
 ```
 
 ## Code Formatting
@@ -23,27 +23,27 @@ In this project, I use black and isort for code formatting and import sorting to
 
 To run black, use the following command:
 ```bash
-   black .
+black .
 ```
 To run isort, use the following command:
 ```bash
-   isort .
+isort .
 ```
 
 ## CLI Tool
 You can test the CLI tool with the following example commands:
 
 ```bash
-   python predict_cli.py "I love this new game, it's fantastic!"
-   python predict_cli.py "I gotta go now, bitch."
-   python predict_cli.py "Dumb bitches do dumb things."
+python predict_cli.py "I love this new game, it's fantastic!"
+python predict_cli.py "I gotta go now, bitch."
+python predict_cli.py "Dumb bitches do dumb things."
 ```
 
 ## Flask Application
 To run the Flask server:
 
 ```bash
-   python app.py
+python app.py
    ```
 Send a POST request to predict hate speech in a tweet:
 ```bash
