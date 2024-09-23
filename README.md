@@ -1,4 +1,4 @@
-# Hate Speech Detection System
+# Hate Speech Detection
 
 ## Project Overview
 This project develops a machine learning model to detect hate speech in tweets. It utilizes a pre-trained BERT model fine-tuned on a dataset containing tweets labeled as hate speech, offensive language, or neither.
