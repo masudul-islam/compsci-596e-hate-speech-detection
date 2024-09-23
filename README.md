@@ -19,7 +19,7 @@ To set up the project, follow these steps to clone the repository and install th
 ```
 
 ## Code Formatting
-This project uses Black and isort for code formatting and import sorting to maintain a clean and consistent codebase.
+In this project, I use black and isort for code formatting and import sorting to maintain a clean and consistent codebase.
 
 To run black, use the following command:
 ```bash
