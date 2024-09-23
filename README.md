@@ -6,16 +6,28 @@ This project develops a machine learning model to detect hate speech in tweets. 
 ## Installation
 
 ### Prerequisites
-- Python 3.8+
-- pip
+- Python 3.8+ or higher 
+- pip (Python package installer)
 
 ### Setup
-Clone the repository and install the required packages:
+To set up the project, follow these steps to clone the repository and install the necessary dependencies:
 
 ```bash
    git clone https://github.com/masudul-islam/compsci-596e-hate-speech-detection.git
    cd hatespeech-detection
    pip install -r requirements.txt
+```
+
+## Code Formatting
+This project uses Black and isort for code formatting and import sorting to maintain a clean and consistent codebase.
+
+To run black, use the following command:
+```bash
+   black .
+```
+To run isort, use the following command:
+```bash
+   isort .
 ```
 
 ## CLI Tool
