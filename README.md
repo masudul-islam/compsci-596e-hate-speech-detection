@@ -31,10 +31,12 @@ To run isort, use the following command:
 ```
 
 ## CLI Tool
-To predict the classification of a tweet from the command line:
+You can test the CLI tool with the following example commands:
 
 ```bash
-   python predict_cli.py "Your tweet here"
+   python predict_cli.py "I love this new game, it's fantastic!"
+   python predict_cli.py "I gotta go now, bitch."
+   python predict_cli.py "Dumb bitches do dumb things."
 ```
 
 ## Flask Application
