@@ -15,8 +15,8 @@ To set up the project, follow these steps to clone the repository and install th
 ```bash
 git clone https://github.com/masudul-islam/compsci-596e-hate-speech-detection.git
 cd compsci-596e-hate-speech-detection
-python3 -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
+python3 -m venv venv  # Create a virtual environment
+source venv/bin/activate  # Activate the virtual environment on Mac OS. For Windows, use venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
